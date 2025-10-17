@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Some myths</title>
+    <link rel="icon" href="./favicon.png" type="image/x-icon">
+    <style>
+        body{
+            background-image: url('./background-images5.png');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            width: 100vw;
+            height: 100vh;
+        }
+        @keyframes slide-right {
+            from{
+                transform: translateX(-200%);
+            }
+            to{
+                transform: translateX(0%);
+            }
+        }
+        header h1{
+            animation: slide-right 2s ease-in-out both;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 45px;
+            color:lightgrey
+        }
+        main ul li{
+            margin-top: 100px;
+            animation: slide-right 2s ease-in-out both;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 30px;
+            color:lightyellow;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Some Myths</h1>
+    </header>
+    <main>
+        <ul>
+        <li><p>Apollo mocked Eros → Eros shot him with love arrow</p></li>
+        <li><p>Daphne struck by arrow of rejection → fled</p></li>
+        <li><p>Transformed into a laurel tree to escape</p></li>
+        <li><p>Apollo made laurel his sacred symbol of love and honor</p></li>
+    </ul>
+    </main>
+</body>
+</html>
